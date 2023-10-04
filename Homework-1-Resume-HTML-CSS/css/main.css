@@ -1,0 +1,159 @@
+:root {
+  --main-color: #75e2c7;
+  --icon-color: #9b9b9b;
+  --border-color: #48917e;
+  --main-text-color: #000000;
+  --nav-text-color: #cecece;
+  --nav-text-color-unselected: #ffffff;
+  --main-font-family: "Oswald", sans-serif;
+  --side-nav-width: 23rem;
+}
+
+body {
+  font-family: var(--main-font-family);
+}
+.navbar {
+  background-color: var(--main-color);
+  text-align: center;
+  position: fixed;
+}
+.sidenav {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: var(--side-nav-width);
+}
+.navbar a {
+  padding-bottom: 2rem;
+}
+.navbar ul {
+  font-size: 1.55rem;
+  font-weight: 600;
+  letter-spacing: 0.03rem;
+  text-transform: uppercase;
+}
+.navbar li {
+  padding-top: 2rem;
+  color: var(--nav-text-color-unselected);
+  transition: color 0.3s;
+}
+.navbar li:hover {
+  color: var(--nav-text-color);
+}
+
+.avatar {
+  max-width: 15rem;
+  max-height: 15rem;
+  border-radius: 50%;
+  border: 0.5rem solid var(--border-color);
+}
+.container {
+  margin-left: var(--side-nav-width);
+}
+.container .resume-section {
+  display: flex;
+  align-items: center;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+.nameheading {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.heading {
+  margin-bottom: 30px;
+}
+h1 {
+  font-size: 8rem;
+}
+h2 {
+  font-size: 5rem;
+}
+h3 {
+  font-size: 3rem;
+}
+.sub-heading {
+  font-size: 33px;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.cover-letter {
+  font-size: 23px;
+  font-weight: 100px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.text-main-color {
+  color: var(--main-color);
+}
+
+.resume-section {
+  min-height: 100vh;
+}
+.social-icons {
+  margin-top: 5rem;
+}
+
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 65px;
+  height: 65px;
+  margin-right: 35px;
+  border-radius: 100%;
+  background-color: var(--icon-color);
+  font-size: 2rem;
+}
+.social-icons a:hover {
+  background-color: var(--main-color);
+}
+
+.section-hr {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.datable-content {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.datable-content .content .header {
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: var(--icon-color);
+}
+.datable-content .content p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: var(--main-text-color);
+}
+.datable-content .content {
+  width: 70%;
+  float: right;
+}
+.datable-content .date {
+  float: left;
+  width: 30%;
+  text-align: right;
+  color: var(--main-color);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.resume-section p {
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  color: var(--main-text-color);
+}
+
+.awards-list {
+  margin-top: 5rem;
+  font-size: 1.5rem;
+}
