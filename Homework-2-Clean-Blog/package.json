@@ -1,0 +1,16 @@
+{
+  "name": "homework-2-clean-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w sass/ -o css/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^20.7.0",
+    "node-sass": "^9.0.0"
+  }
+}
