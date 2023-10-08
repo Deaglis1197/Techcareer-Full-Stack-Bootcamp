@@ -325,3 +325,17 @@ article {
 
 .right-sided-button {
   float: right; }
+
+.left-sided-button {
+  float: left; }
+
+.contact-inputs {
+  border: none;
+  font-size: 40px;
+  font-family: "Lora", serif;
+  font-weight: 100;
+  margin-bottom: 20px;
+  margin-top: 10px; }
+
+.contact-inputs:focus {
+  outline: none; }
