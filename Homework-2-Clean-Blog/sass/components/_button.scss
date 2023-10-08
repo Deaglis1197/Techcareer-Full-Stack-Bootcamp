@@ -1,10 +1,3 @@
-.next-button {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
 .button {
   background-color: $button-color;
   font-size: 30px;
@@ -20,4 +13,8 @@
   color: $black-background-text-color;
   padding: 17px 25px 17px 25px;
   transition: background-color 0.3s;
+}
+
+.right-sided-button {
+  float: right;
 }

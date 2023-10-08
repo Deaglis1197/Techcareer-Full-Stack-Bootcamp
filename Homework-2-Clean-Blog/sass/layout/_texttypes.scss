@@ -15,8 +15,15 @@ a:hover {
   color: $text-hover-color;
 }
 p {
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
-.post-date {
+.paragraph {
+  margin-bottom: $paragraph-margin-top;
+}
+.caption {
+  font-size: 14px;
   font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+  color: $white-background-text-color;
 }
