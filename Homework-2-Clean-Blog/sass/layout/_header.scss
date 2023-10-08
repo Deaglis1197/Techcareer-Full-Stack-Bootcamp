@@ -1,0 +1,14 @@
+.head {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+  height: 650px;
+  h1 {
+    color: $header-text-color;
+  }
+  h2 {
+    color: $header-text-color;
+  }
+}

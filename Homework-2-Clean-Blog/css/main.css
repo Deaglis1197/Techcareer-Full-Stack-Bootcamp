@@ -125,3 +125,51 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+.head {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+  height: 650px; }
+  .head h1 {
+    color: #fff; }
+  .head h2 {
+    color: #fff; }
+
+.body {
+  display: block;
+  font-family: "Dela Gothic One", cursive; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center; }
+  .container * {
+    top: 50%;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 15%;
+    margin-right: 15%; }
+
+h1 {
+  font-size: 5rem;
+  font-weight: 700; }
+
+h2 {
+  font-size: 3rem;
+  font-weight: 500; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  opacity: 0.5; }
