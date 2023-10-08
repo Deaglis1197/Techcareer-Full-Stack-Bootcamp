@@ -126,6 +126,26 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.footer {
+  text-align: center; }
+
+.social-icons {
+  margin-top: 5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; }
+
+.social-icons a {
+  text-decoration: none;
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+  background-color: #9b9b9b;
+  font-size: 2rem; }
+
+.social-icons a:hover {
+  background-color: #75e2c7; }
+
 .head {
   margin-bottom: 50px;
   background: no-repeat center center;
@@ -133,37 +153,76 @@ table {
   position: relative;
   background-size: cover;
   height: 650px; }
+  .head .container {
+    position: absolute;
+    text-align: center; }
   .head h1 {
-    color: #fff; }
+    color: #fff;
+    font-size: 8rem;
+    font-weight: 700; }
   .head h2 {
-    color: #fff; }
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 500; }
 
-.body {
+.navbar {
+  padding: 15px; }
+  .navbar .navcontainer {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between; }
+  .navbar .header {
+    font-size: 30px;
+    font-weight: 800; }
+  .navbar .buttons {
+    font-size: 25px;
+    font-weight: 500; }
+    .navbar .buttons * {
+      margin-left: 5px;
+      margin-right: 5px; }
+
+body {
   display: block;
-  font-family: "Dela Gothic One", cursive; }
+  font-family: "Lora", serif; }
+
+hr {
+  color: #3f3f3f; }
 
 .container {
   display: flex;
   flex-direction: column;
-  position: absolute;
   width: 100%;
   height: 100%;
   justify-content: center; }
   .container * {
     top: 50%;
-    text-align: center;
     padding-right: 15px;
-    padding-left: 15px;
     margin-left: 15%;
     margin-right: 15%; }
 
 h1 {
-  font-size: 5rem;
-  font-weight: 700; }
+  font-size: 3rem;
+  font-weight: 600; }
 
 h2 {
-  font-size: 3rem;
-  font-weight: 500; }
+  font-size: 2.5rem;
+  font-weight: 300; }
+
+a {
+  text-decoration: none;
+  color: #000000; }
+
+a:hover {
+  color: #0099ff; }
+
+p {
+  font-size: 1.4rem; }
+
+.post-date {
+  font-style: italic; }
 
 .overlay {
   position: absolute;
@@ -173,3 +232,26 @@ h2 {
   width: 100%;
   background-color: #000000;
   opacity: 0.5; }
+
+.next-button {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.button {
+  background-color: #0099ff;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  padding: 17px 25px 17px 25px;
+  transition: background-color 0.3s; }
+
+.button:hover {
+  background-color: #0075c4;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  padding: 17px 25px 17px 25px;
+  transition: background-color 0.3s; }

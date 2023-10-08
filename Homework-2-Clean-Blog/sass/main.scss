@@ -11,8 +11,11 @@
 @import "layout/navigation";
 @import "layout/body";
 @import "layout/container";
-@import "layout/h";
+@import "layout/texttypes";
 //components
 @import "components/overlay";
+@import "components/articles";
+@import "components/button";
+
 //pages
 @import "pages/home";

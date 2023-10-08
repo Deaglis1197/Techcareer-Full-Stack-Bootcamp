@@ -1,0 +1,24 @@
+.navbar {
+  padding: 15px;
+  .navcontainer {
+    margin-left: $page-left-right-margin;
+    margin-right: $page-left-right-margin;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .header {
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .buttons {
+    * {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+
+    font-size: 25px;
+    font-weight: 500;
+  }
+}

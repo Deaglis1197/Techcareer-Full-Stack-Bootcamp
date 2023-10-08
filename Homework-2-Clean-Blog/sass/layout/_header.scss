@@ -5,10 +5,19 @@
   position: relative;
   background-size: cover;
   height: 650px;
+  .container {
+    position: absolute;
+    text-align: center;
+  }
+
   h1 {
-    color: $header-text-color;
+    color: $black-background-text-color;
+    font-size: 8rem;
+    font-weight: 700;
   }
   h2 {
-    color: $header-text-color;
+    color: $black-background-text-color;
+    font-size: 3rem;
+    font-weight: 500;
   }
 }
