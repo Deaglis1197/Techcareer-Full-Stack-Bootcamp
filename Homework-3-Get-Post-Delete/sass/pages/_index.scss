@@ -1,4 +1,9 @@
 .content {
-  display: flex;
+  display: flexbox;
   justify-content: center;
+  width: 85%;
+}
+.page-body {
+  display: flex;
+  flex-direction: row;
 }

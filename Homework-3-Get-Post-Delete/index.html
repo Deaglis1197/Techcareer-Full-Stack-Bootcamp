@@ -8,19 +8,15 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="content">
-      <div class="items-lister">
-        <div class="search-bar">
-          <input
-            type="text"
-            name=""
-            id="itemCount"
-            placeholder="List Item Count"
-          />
-          <button onclick="displayList()">List Items</button>
-        </div>
-        <div class="items-container"></div>
+    <div class="page-body">
+      <div class="left-side-nav">
+        <ul>
+          <li onclick="showGet()">Get</li>
+          <li onclick="showPost()">Post</li>
+          <li onclick="showDelete()">Delete</li>
+        </ul>
       </div>
+      <div class="content" id="content"></div>
     </div>
 
     <script src="scripts/getpostdelete.js"></script>
