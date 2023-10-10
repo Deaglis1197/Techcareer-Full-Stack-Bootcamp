@@ -13,6 +13,10 @@
 @import "layout/container";
 
 //components
-
+@import "components/card";
+@import "components/itemscontainer";
+@import "components/bars";
+@import "components/buttons";
+@import "components/inputs";
 //pages
-@import "pages/home";
+@import "pages/index";
